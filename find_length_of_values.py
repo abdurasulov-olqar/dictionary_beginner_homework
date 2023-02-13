@@ -11,9 +11,3 @@ def find_length_of_values(data: dict) -> int:
         s += len(i)
     return s
 
-data = {
-    'a': 'abc',
-    'b': 'def', 
-    'c': 'ghi'
-  }
-print(find_length_of_values(data))
