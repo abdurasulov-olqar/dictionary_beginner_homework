@@ -8,6 +8,6 @@ def find_max_value(data: dict):
     """
     l = []
     for i in data.values():
-        if type(i) == int:
+        if type(i) == int or type(i) == float:
             l.append(i)
     return max(l) 
