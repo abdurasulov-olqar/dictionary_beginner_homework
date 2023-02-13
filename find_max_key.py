@@ -8,6 +8,6 @@ def find_max_key(data: dict):
     """
     l = []
     for i in data.keys():
-        if type(i) == int:
+        if type(i) == int or type(i) == float:
             l.append(i)
     return max(l)
