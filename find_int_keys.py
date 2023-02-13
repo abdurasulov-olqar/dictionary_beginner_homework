@@ -11,10 +11,3 @@ def find_int_keys(data: dict) -> list:
         if type(i) == int:
             l.append(i)
     return l
-data = {
-    'a': 1, 
-    3 : 2, 
-    'c': 3,
-    10:'a'
-  }
-print(find_int_keys(data))
