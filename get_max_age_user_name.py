@@ -12,3 +12,4 @@ def get_max_age_user_name(data:list) -> str:
         if type(i['age']) == int:
           l.append(i['age'])
     return max(l)
+    
