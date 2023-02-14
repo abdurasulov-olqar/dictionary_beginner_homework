@@ -6,4 +6,9 @@ def sum_even_values(data: dict) -> int:
     Returns:
         int: The sum of all even values in the dictionary
     '''
-    return 
+    d = (data.values())
+    s = 0
+    for i in d:
+        if i%2 == 0:
+            s += i
+    return s
